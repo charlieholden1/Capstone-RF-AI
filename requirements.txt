@@ -1,7 +1,17 @@
+# Core numerics
 numpy
 scipy
 matplotlib
 pandas
-scikit-learn
+
+# ML / AI (later training/classification)
 torch
 torchaudio
+torchvision
+scikit-learn
+
+# Testing
+pytest
+sigmf
+pillow
+tqdm

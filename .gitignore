@@ -1,29 +1,34 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
 .venv/
-.env
 
-# C/C++ build
-*.o
-*.out
-*.exe
-build/
+# Jupyter/IPython
+.ipynb_checkpoints/
 
-# Data & artifacts
-*.iq
-*.bin
-*.wav
-*.csv
-*.npz
-*.npy
-
-# Logs
-*.log
-
-# OS/editor
+# OS
 .DS_Store
-*.swp
-*.swo
-.vscode/
-.idea/
+
+# Data (large raw IQ + spectrograms)
+data/raw/
+data/spec/
+
+# Models and checkpoints
+models/
+*.onnx
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# Download lists (if you want to keep them local only)
+scripts/*_urls.txt
+
+# Logs / temp files
+*.log
+*.tmp
+*.aria2
